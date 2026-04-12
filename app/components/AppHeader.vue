@@ -5,15 +5,15 @@
       <NuxtLink to="/" class="flex items-center gap-3 group cursor-pointer">
         <div class="relative">
           <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
-          <img src="/logo.png" alt="Logo" class="relative h-9 w-9 rounded-full border border-slate-700 object-cover" />
+          <img src="/iconapp.png" alt="Logo" class="relative h-9 w-9 rounded-full border border-slate-700 object-cover" />
         </div>
         
         <div class="flex flex-col leading-tight">
           <span class="text-xl font-bold tracking-tight text-black group-hover:text-indigo-400 transition">
-            ONKP<span class="text-indigo-500">.</span>
+            Framefy<span class="text-indigo-500">.</span>
           </span>
           <span class="text-[10px] uppercase tracking-[0.2em] text-slate-500 font-bold">
-            Framefy
+            Bingkai Foto Keren
           </span>
         </div>
       </NuxtLink>
@@ -80,7 +80,6 @@ const menuItems = [
   { name: 'Beranda', path: '/' },
   { name: 'Twibbon', path: '#twibbon' },
   { name: 'Tutorial', path: '#tutorial' },
-  { name: 'Tentang', path: '#about' }
 ]
 </script>
 

@@ -1,18 +1,17 @@
 <template>
-  <section id="twibbon" class="relative py-8 md:py-16 overflow-hidden bg-[#105763] border-t border-white/[0.05]">
+  <div id="container-e99bef41a3376e4909b0e30eb0f1730c"></div>
+
+  <section id="twibbon" class="relative py-8 md:py-16 overflow-hidden bg-[#0a35e3] border-t border-white/[0.05]">
     <div
       class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-indigo-500/50 to-transparent" />
 
     <div class="max-w-6xl mx-auto px-4 md:px-6">
-      <div class="w-full text-center mb-6 md:mb-10 animate-fade-in">
+      <div class="w-full text-center mb-6 md:mb-10">
         <h2 class="text-2xl md:text-4xl font-black tracking-tight text-white mb-3 uppercase leading-tight">
           Twibbon <br class="md:hidden" />
           <span class="bg-gradient-to-r from-indigo-400 to-emerald-400 bg-clip-text text-transparent">Official
             Generator</span>
         </h2>
-        <p class="text-slate-400 text-xs md:text-sm font-light leading-relaxed max-w-2xl mx-auto italic opacity-80">
-          Unggah foto Anda dan jadilah bagian dari HUT ONKP Ke-74.
-        </p>
       </div>
 
       <div class="flex flex-col lg:grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
@@ -92,6 +91,10 @@
       </div>
     </div>
   </section>
+
+  <div class="flex justify-center py-6 bg-[#030712]">
+    <div id="container-4d0ba51c2c6250c619700354e454902e"></div>
+  </div>
 </template>
 
 <script setup>

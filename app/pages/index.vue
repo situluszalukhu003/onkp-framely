@@ -91,155 +91,113 @@
 
       </div>
     </section>
+
     <TwibbonEditor />
 
-    <section id="tutorial" class="relative py-20 bg-[#e6630cb1] border-t border-white/[0.05]">
-      <div class="max-w-6xl mx-auto px-6">
+    <section id="tutorial" class="relative py-20 overflow-hidden bg-gradient-to-br from-amber-50 via-orange-100 to-yellow-50">
+  <!-- Decorative elements -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute -top-20 -left-20 w-72 h-72 bg-orange-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+    <div class="absolute top-40 -right-20 w-96 h-96 bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse delay-1000"></div>
+    <div class="absolute -bottom-32 left-1/3 w-80 h-80 bg-amber-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse delay-2000"></div>
+  </div>
 
-        <div class="mb-12 text-center lg:text-left">
-          <h2 class="text-xl md:text-2xl font-bold tracking-[0.3em] text-black uppercase mb-2">
-            Panduan <span class="text-indigo-500">Penggunaan</span>
-          </h2>
-          <div class="h-1 w-20 bg-indigo-600 mx-auto lg:mx-0"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-          <div
-            class="group p-8 bg-white/[0.02] border border-white/5 hover:border-indigo-500/30 transition-all duration-500">
-            <div class="text-3xl font-black text-indigo-500/20 mb-4 group-hover:text-indigo-500/50 transition-colors">01
-            </div>
-            <h3 class="text-white font-bold text-sm tracking-widest uppercase mb-3">Pilih Foto</h3>
-            <p class="text-slate-500 text-xs leading-relaxed italic">
-              Klik tombol "PILIH FOTO" dan ambil foto terbaik dari galeri perangkat Anda.
-            </p>
-          </div>
-
-          <div
-            class="group p-8 bg-white/[0.02] border border-white/5 hover:border-indigo-500/30 transition-all duration-500">
-            <div class="text-3xl font-black text-indigo-500/20 mb-4 group-hover:text-indigo-500/50 transition-colors">02
-            </div>
-            <h3 class="text-white font-bold text-sm tracking-widest uppercase mb-3">Atur Posisi</h3>
-            <p class="text-slate-500 text-xs leading-relaxed italic">
-              Gunakan jari (HP) atau mouse (PC) untuk menggeser dan memperbesar foto agar pas di dalam bingkai.
-            </p>
-          </div>
-
-          <div
-            class="group p-8 bg-white/[0.02] border border-white/5 hover:border-indigo-500/30 transition-all duration-500">
-            <div class="text-3xl font-black text-indigo-500/20 mb-4 group-hover:text-indigo-500/50 transition-colors">03
-            </div>
-            <h3 class="text-white font-bold text-sm tracking-widest uppercase mb-3">Unduh Hasil</h3>
-            <p class="text-slate-500 text-xs leading-relaxed italic">
-              Tekan tombol "UNDUH HASIL HD". Gambar akan otomatis tersimpan dengan kualitas tinggi (1080px).
-            </p>
-          </div>
-
-          <div
-            class="group p-8 bg-white/[0.02] border border-white/5 hover:border-indigo-500/30 transition-all duration-500">
-            <div class="text-3xl font-black text-indigo-500/20 mb-4 group-hover:text-indigo-500/50 transition-colors">04
-            </div>
-            <h3 class="text-white font-bold text-sm tracking-widest uppercase mb-3">Bagikan</h3>
-            <p class="text-slate-500 text-xs leading-relaxed italic">
-              Gunakan tagar resmi <span class="text-indigo-400">#HUTONKP74</span> dan bagikan ke media sosial Anda!
-            </p>
-          </div>
-
-        </div>
-
-        <div class="mt-12 p-6 border-l-2 border-indigo-500 bg-indigo-500/5 max-w-2xl">
-          <p class="text-[10px] text-slate-400 uppercase tracking-[0.1em] leading-relaxed">
-            <span class="text-indigo-400 font-bold">Catatan:</span> Jika tombol unduh tidak merespon, pastikan Anda
-            telah memberikan izin akses penyimpanan pada browser Anda.
-          </p>
-        </div>
-
+  <div class="max-w-6xl mx-auto px-6 relative z-10">
+    <!-- Header lebih ceria -->
+    <div class="mb-12 text-center">
+      <div class="inline-flex items-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-1.5 shadow-sm mb-4">
+        <span class="text-2xl">🎉</span>
+        <span class="text-amber-700 font-semibold text-sm tracking-wide">Mudah & Seru!</span>
       </div>
-    </section>
+      <h2 class="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">
+        Panduan <span class="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Penggunaan</span>
+      </h2>
+      <div class="h-1 w-24 bg-gradient-to-r from-orange-400 to-amber-500 mx-auto rounded-full mt-4"></div>
+      <p class="text-amber-800/70 mt-3 text-sm max-w-md mx-auto">Ikuti 4 langkah mudah di bawah ini, ya!</p>
+    </div>
 
-    <section id="about" class="relative py-24 bg-[#0f1831] border-t border-white/[0.05] overflow-hidden">
-    <div class="absolute bottom-0 right-0 w-96 h-96 bg-indigo-600/5 blur-[120px]"></div>
-
-    <div class="max-w-6xl mx-auto px-6">
-      
-      <div class="mb-16 text-center lg:text-left animate-fade-in">
-        <h2 class="text-xl md:text-2xl font-black tracking-[0.4em] text-white uppercase mb-4">
-          Tentang <span class="text-indigo-500">Kami</span>
-        </h2>
-        <div class="h-1 w-24 bg-gradient-to-r from-indigo-600 to-emerald-500 mx-auto lg:mx-0"></div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Card 1 -->
+      <div class="group bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-white/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center text-white font-black text-lg shadow-md group-hover:scale-110 transition-transform">
+            1
+          </div>
+          <span class="text-2xl">📸</span>
+        </div>
+        <h3 class="text-amber-800 font-bold text-lg mb-2">Pilih Foto</h3>
+        <p class="text-amber-700/70 text-sm leading-relaxed">
+          Klik tombol <span class="font-semibold text-orange-600">“PILIH FOTO”</span> dan ambil foto terbaik dari galeri atau kamera kamu.
+        </p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-        
-        <div class="lg:col-span-5 space-y-8 animate-slide-up">
-          <div class="p-8 border border-white/10 bg-white/[0.02] relative group">
-            <div class="absolute -top-4 -left-4 px-6 py-2 bg-indigo-600 text-white text-[10px] font-black tracking-[0.3em] uppercase">
-              VISI
-            </div>
-            
-            <h3 class="text-2xl md:text-3xl font-black text-white leading-tight mb-6 mt-4">
-              “Gereja yang Tumbuh, Tangguh dan Melayani”
-            </h3>
-            
-            <div class="space-y-4 text-xs md:text-sm text-slate-400 leading-relaxed italic">
-              <p>
-                <span class="text-indigo-400 font-bold not-italic">Gereja:</span> Lembaga, seluruh komponen, potensi dan sumber daya yang dimiliki oleh ONKP.
-              </p>
-              <p>
-                <span class="text-indigo-400 font-bold not-italic">Tumbuh:</span> Kondisi ONKP yang sedang berkembang menuju besar.
-              </p>
-              <p>
-                <span class="text-indigo-400 font-bold not-italic">Tangguh:</span> Kuat, kokoh dan tahan menghadapi tantangan zaman.
-              </p>
-              <p>
-                <span class="text-indigo-400 font-bold not-italic">Melayani:</span> Terpanggil untuk mengabdi dengan kesungguhan dan keikhlasan.
-              </p>
-            </div>
+      <!-- Card 2 -->
+      <div class="group bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-white/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center text-white font-black text-lg shadow-md group-hover:scale-110 transition-transform">
+            2
           </div>
-
-          <p class="text-[10px] text-slate-500 leading-relaxed uppercase tracking-wider">
-            Visi ini merupakan gambaran kondisi ideal masa depan sesuai hasil Sidang Sinode XIV untuk memastikan ONKP tetap eksis dan inovatif.
-          </p>
+          <span class="text-2xl">🎯</span>
         </div>
+        <h3 class="text-amber-800 font-bold text-lg mb-2">Atur Posisi</h3>
+        <p class="text-amber-700/70 text-sm leading-relaxed">
+          Geser, <span class="font-semibold text-orange-600">zoom (pinch)</span>, atau putar fotomu agar pas di dalam bingkai keren.
+        </p>
+      </div>
 
-        <div class="lg:col-span-7 animate-slide-up [animation-delay:200ms]">
-          <div class="p-8 border border-white/10 bg-white/[0.02] relative">
-            <div class="absolute -top-4 -left-4 px-6 py-2 bg-emerald-600 text-white text-[10px] font-black tracking-[0.3em] uppercase">
-              MISI 2022-2027
-            </div>
-
-            <p class="text-xs text-slate-400 mb-8 mt-4 leading-relaxed italic">
-              Rumusan upaya nyata dalam mewujudkan visi pelayanan melalui 6 pilar utama:
-            </p>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div v-for="(misi, index) in daftarMisi" :key="index" 
-                class="flex items-start gap-4 p-4 border border-white/5 bg-white/[0.01] hover:bg-indigo-500/5 transition-colors duration-500">
-                <span class="text-indigo-500 font-black text-sm">0{{ index + 1 }}</span>
-                <p class="text-xs text-white leading-relaxed font-light uppercase tracking-wide">
-                  {{ misi }}
-                </p>
-              </div>
-            </div>
+      <!-- Card 3 -->
+      <div class="group bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-white/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center text-white font-black text-lg shadow-md group-hover:scale-110 transition-transform">
+            3
           </div>
+          <span class="text-2xl">💾</span>
         </div>
+        <h3 class="text-amber-800 font-bold text-lg mb-2">Unduh Hasil</h3>
+        <p class="text-amber-700/70 text-sm leading-relaxed">
+          Klik <span class="font-semibold text-orange-600">“UNDUH HASIL HD”</span> — gambar HD 1200px akan tersimpan otomatis.
+        </p>
+      </div>
 
+      <!-- Card 4 -->
+      <div class="group bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-white/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center text-white font-black text-lg shadow-md group-hover:scale-110 transition-transform">
+            4
+          </div>
+          <span class="text-2xl">🚀</span>
+        </div>
+        <h3 class="text-amber-800 font-bold text-lg mb-2">Bagikan</h3>
+        <p class="text-amber-700/70 text-sm leading-relaxed">
+          Pakai tagar <span class="font-semibold text-indigo-600">#TwibbonCeria</span> dan bagikan ke medsosmu. Biar makin rame!
+        </p>
       </div>
     </div>
-  </section>
+
+    <!-- Catatan ceria -->
+    <div class="mt-12 p-5 rounded-xl bg-gradient-to-r from-amber-100 to-orange-100 border border-amber-200 shadow-sm max-w-2xl mx-auto lg:mx-0">
+      <div class="flex items-start gap-3">
+        <span class="text-2xl">💡</span>
+        <p class="text-amber-800 text-sm leading-relaxed">
+          <span class="font-bold">Catatan ceria:</span> Jika tombol unduh belum merespon, coba refresh halaman atau gunakan Chrome / Safari ya. Pastikan foto yang dipilih tidak terlalu besar (max 10 MB).
+        </p>
+      </div>
+    </div>
+
+    <!-- Tambahan little joke / motivasi -->
+    <div class="text-center mt-8">
+      <p class="text-amber-700/60 text-xs inline-flex items-center gap-1 bg-white/40 rounded-full px-3 py-1">
+        <span>✨</span> Selamat berkarya! <span>😊</span>
+      </p>
+    </div>
+  </div>
+</section>
 
   </main>
 </template>
 
 <script setup>
-const daftarMisi = [
-  "Meningkatkan sumber daya pelayan dan warga jemaat gereja ONKP.",
-  "Meningkatkan pelayanan Marturia (Kesaksian).",
-  "Meningkatkan pelayanan Koinonia (Bersekutu).",
-  "Meningkatkan pelayanan Diakonia (Pelayanan).",
-  "Menata Organisasi dan kelembagaan yang sistematis dan partisipatif.",
-  "Meningkatkan tata kelola keuangan yang akuntabel dan transparan."
-]
+
 </script>
 
 <style scoped>
@@ -324,4 +282,7 @@ main {
     transform: translateY(0);
   }
 }
+
+
+
 </style>
