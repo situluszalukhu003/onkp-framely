@@ -4,11 +4,11 @@ useHead({
   title: 'HUT ONKP Ke-74 & Rakor Pendeta 2026',
   script: [
     // 1. Iklan Populer (Popunder)
-    {
-      src: 'https://pl29137121.profitablecpmratenetwork.com/1b/46/0e/1b460e360bf4c87a20fe526e36b9adc2.js',
-      async: true,
-      'data-cfasync': 'false'
-    },
+    // {
+    //   src: 'https://pl29137121.profitablecpmratenetwork.com/1b/46/0e/1b460e360bf4c87a20fe526e36b9adc2.js',
+    //   async: true,
+    //   'data-cfasync': 'false'
+    // },
     // 2. Iklan Social Bar
     {
       src: 'https://pl29137123.profitablecpmratenetwork.com/74/a1/af/74a1af0fa346fb9a237560914c6e2c07.js',
